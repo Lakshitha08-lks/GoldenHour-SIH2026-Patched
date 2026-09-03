@@ -5,6 +5,7 @@
   "description": "GoldenHour — ambulance pre-arrival alert. Ambulance app + backend + hospital desk in one repo, wired together for the internal hackathon.",
   "license": "MIT",
   "scripts": {
+    "build": "npm --prefix backend install && npm --prefix app install",
     "setup": "npm --prefix backend install && npm --prefix app install",
     "start": "npm --prefix backend start",
     "dev": "npm --prefix backend run dev",
